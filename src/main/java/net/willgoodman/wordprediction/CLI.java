@@ -37,22 +37,11 @@ public class CLI {
         DictionaryTree d = loadWords(new File(args[0]));
         System.out.println("done");
 
-        //System.out.println("Contains will: " + d.contains("will"));
         System.out.println("Height: " + d.height());
         System.out.println("Size: " + d.size());
         System.out.println("maximumBranching: " + d.maximumBranching());
         System.out.println("numLeaves: " + d.numLeaves());
-        //System.out.println("allWords: " + d.allWords().toString());
         System.out.println("longestWord: " + d.longestWord());
-        //System.out.println("contains hi: " + d.contains("hi"));
-        //d.insert("hi");
-        //System.out.println("contains hi2: " + d.contains("hi"));
-        //d.remove("hi");
-        //System.out.println("contains hi3: " + d.contains("hi"));
-        //System.out.println("allWords2: " + d.allWords().toString());
-        //System.out.println("contains ecl: " + d.contains("ecl"));
-        //d.insert("hi");
-       // System.out.println("allWords3: " + d.allWords().toString());
         System.out.println("predict 'th' with popularity: " + d.predict("th", 30));
 
         System.out.println("Enter prefixes for prediction below.");
