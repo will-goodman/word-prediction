@@ -1,3 +1,5 @@
+package net.willgoodman.wordprediction;
+
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.HashMap;

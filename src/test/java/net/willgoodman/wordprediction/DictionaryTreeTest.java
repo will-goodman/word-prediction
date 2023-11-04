@@ -1,13 +1,15 @@
+package net.willgoodman.wordprediction;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 /**
  * @author Kelsey McKenna
  */
-public class DictionaryTreeTests {
+public class DictionaryTreeTest {
 
 	private String[] testWords = { "the", "bye", "will", "hit", "eclair", "eclairs", "eclair's", "eclat", "eclat's",
 			"thorough", "through", "i", "threw", "they", "there", "their" };
